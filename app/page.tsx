@@ -26,7 +26,7 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <section className="text-left text-[20px] xs:text-[16px] xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
+      <section className="text-left xs:text-[16px] md:text-[18px] xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
         <div className="pt-[20px] w-[500px]">
           <p className="font-medium text-[18px] pb-[10px]">
             🧰 Tools, libraries, and frameworks:
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
+      <div className="xs:text-[16px] md:text-[18px] xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
         <section className="flex flex-col justify-center margin-auto w-[500px]">
           <h2 className="text-[48px] py-[40px] text-center">Writing</h2>
           <p className="indent-4  text-left">
@@ -110,6 +110,7 @@ export default function Home() {
             height={500}
             className="py-[20px]"
           />
+          <h3 className="text-[30px] py-[20px] text-center">Speaking</h3>
           <p className="indent-4  text-left">
             As an early champion and adopter of MFE and Module federation, I
             gave a talk at Develop Denver in 2019 about the MFE archietcture I
@@ -148,10 +149,10 @@ export default function Home() {
           />
         </section>
         <section className="flex flex-col justify-center margin-auto w-[500px]">
-          <h2 className="text-[48px] py-[40px] text-center">Projects</h2>
+          <h2 className="text-[48px] mt-[20px] text-center">Projects</h2>
 
-          <div className="pt-[20px]  text-left">
-            <h3 className="text-[24px]">
+          <div className="mt-[40px] text-left">
+            <h3 className="text-[24px] text-center">
               <a
                 href="https://boggle.pages.dev/"
                 className="text-blue-700 underline"
@@ -182,8 +183,8 @@ export default function Home() {
               <br />
             </p>
           </div>
-          <div className=" text-left">
-            <h3 className="text-[24px]">
+          <div className="mt-[40px] text-left">
+            <h3 className="text-[24px] text-center">
               <a
                 href="https://mewzik-viz.vercel.app/"
                 className="text-blue-700 underline"
@@ -217,9 +218,7 @@ export default function Home() {
               amplitude, and it will use this information to create a visual
               representation of the music. The visualizer requires an MP3 to
               play. Here is a soundbyte MP3 of Beethovens 5th Symphony if you do
-              not have one available.
-              <br />
-              <br />
+              not have one available.{' '}
               <a
                 href="beethoven-symphony-5.mp3"
                 className="text-blue-700 underline"
@@ -228,11 +227,11 @@ export default function Home() {
               </a>
             </p>
           </div>
-          <div className="pt-[20px]  text-left">
-            <h3 className="text-[24px]">
+          <div className="mt-[40px] text-left">
+            <h3 className="text-[24px] text-center">
               <a
                 href="https://github.com/alexUXUI/wasm-federation-demo"
-                className="text-blue-700 underline"
+                className="text-blue-700 underline "
               >
                 Federating Wasm Modules
               </a>
@@ -246,6 +245,15 @@ export default function Home() {
                 className="py-[20px] m-auto"
               />
             </div>
+            {/* add a GIF below */}
+            <video
+              src="https://twitter.com/i/status/1391847946711289859"
+              width="500"
+              height="750"
+              controls
+              className="py-[20px] m-auto"
+            />
+
             <p className="indent-4 ">
               Built with webpack module federation, Rust, and Wasm
               <br />
