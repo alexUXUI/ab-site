@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-6 xs:p-2">
+    <main className="flex min-h-screen flex-col items-center p-6 xs:p-2 xxs:p-2">
       <h1 className="text-[48px]">Alex Bennett</h1>
       <section className="margin-auto pt-[20px] text-[20px] pb-[40px] max-w-[580px]">
         <p className=" text-center indent-4">
@@ -26,7 +26,7 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <section className="text-left xs:text-[16px] md:text-[18px] xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
+      <section className="text-left xs:text-[16px] md:text-[18px] xxs:w-[98%]  xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
         <div className="pt-[20px] w-[500px]">
           <p className="font-medium text-[18px] pb-[10px]">
             🧰 Tools, libraries, and frameworks:
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="xs:text-[16px] md:text-[18px] xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
+      <div className="xs:text-[16px] md:text-[18px] xxs:w-[98%]  xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
         <section className="flex flex-col justify-center margin-auto w-[500px]">
           <h2 className="text-[48px] py-[40px] text-center">Writing</h2>
           <p className="indent-4  text-left">
