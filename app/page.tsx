@@ -1,113 +1,134 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
+    <main className="flex min-h-screen flex-col items-center p-6">
+      <h1 className="text-[48px]">Alex Bennett</h1>
+      <section className="margin-auto pt-[20px] pb-[40px]">
+        <p className="text-[20px] text-center max-w-[580px] indent-4">
+          Software Engineer & AWS Certified Cloud Architect with over a decade
+          of experience building comprehensive technology solutions across many
+          industries.
         </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <p className="text-center text-[20px] max-w-[580px] text-left pt-[20px]">
+          OSS contributor, conference speaker, and life-long learner.
+        </p>
+
+        <div className="margin-auto flex flex-col justify-center">
           <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/Resume-Alex-Bennett.pdf"
+            download="alex-bennett-resume.pdf"
+            className="py-[20px] text-[20px] max-w-[580px] underline text-center text-blue-700"
           >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+            Download Resume
           </a>
         </div>
-      </div>
+      </section>
+      <section className="w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px] ">
+        <div className="text-[20px] pt-[20px] w-[500px]">
+          <p className="font-medium pb-[10px]">
+            🧰 Tools, libraries, and frameworks:
+          </p>
+          <p className="indent-4 text-[18px] max-w-[580px] text-left">
+            React (Next.js/Remix), Qwik, Node.js, TypeScript, GraphQL/Apollo,
+            Webpack, Rust, Wasm and many more not listed here.
+          </p>
+        </div>
+        <div className="w-[500px] text-[20px] max-w-[580px] text-left pt-[20px]">
+          <p className="font-medium pb-[10px]">🧩 Patterns:</p>
+          <p className="indent-4 text-[18px] max-w-[580px] text-left">
+            Serverless, Micro frontends, Event Sourcing and Event Driven
+            Architecture, CQRS, functional programming, SOLID principles, clean
+            architecture, BFF, Service-full integration, Polylith and many more.
+          </p>
+        </div>
+        <div className="w-[500px] text-[20px] max-w-[580px] text-left pt-[20px]">
+          <p className="font-medium pb-[10px]">🧠 Knowledgable about:</p>
+          <p className="indent-4 text-[18px] max-w-[580px] text-left">
+            DevOps, Compilers, Frameworks, Runtimes, Javascript toolchain,
+            Testing, Monorepos, Performance Engineering, Observability, Browser
+            APIs, and more.
+          </p>
+        </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
+        <div className="w-[500px] text-[20px] max-w-[580px] text-left pt-[20px]">
+          <p className="font-medium pb-[10px]">⛅️ Clouds:</p>
+          <p className="indent-4 text-[18px] max-w-[580px] text-left">
+            AWS, GCP, Cloudflare, Vercel, Netlify, Heroku, etc
+          </p>
+        </div>
+
+        <div className="w-[500px] text-[20px] max-w-[580px] text-left pt-[20px]">
+          <p className="font-medium pb-[10px]">🗄 Databases:</p>
+          <p className="indent-4 text-[18px] max-w-[580px] text-left">
+            Realtional: Postgres, MySQL, Nonrelational: DynamoDB, MongoDB,
+            Redis. Also have worked with Columnar and Graph DBs.
+          </p>
+        </div>
+        <div className="w-[500px] text-[20px] max-w-[580px] text-left pt-[20px]">
+          <p className="font-medium pb-[10px]">✏️ Design:</p>
+          <p className="indent-4 text-[18px] max-w-[580px] text-left">
+            Figma, SketchUp, Adobe: Photoshop, Illustrator, After Effects,
+            Premier Pro
+          </p>
+        </div>
+      </section>
+
+      <section className="flex flex-col justify-center margin-auto">
+        <h2 className="text-[48px] py-[40px] text-center">Writing</h2>
+        <p className="indent-4 text-[18px] max-w-[580px] text-left">
+          As part of the Module Federation OSS community team, I worked with
+          Zack Jackson to write a webpack plugin to syncronize multiple,
+          independent builds using Module Federation and I wrote about it{' '}
+          <a
+            className="text-blue-700 underline"
+            href="https://medium.com/@A__G__B/introducing-fmr-federated-module-reloading-820ec56256db"
+          >
+            here.
+          </a>
+        </p>
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          src="/fmr.png"
+          alt="FMR logo"
+          width={500}
+          height={500}
+          className="py-[20px]"
         />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <p className="indent-4 text-[18px] max-w-[580px] text-left">
+          This OSS project was later published in the seminal book on
+          Micro-Frontends, written by Principal AWS Engineer, Luca Mezzalira.{' '}
+        </p>
+        <Image
+          src="/building-mfe.png"
+          alt="FMR logo"
+          width={500}
+          height={500}
+          className="py-[20px]"
+        />
+        <p className="indent-4 text-[18px] max-w-[580px] text-left">
+          As an early champion and adopter of MFE and Module federation, I gave
+          a talk at Develop Denver in 2019 about the MFE archietcture I built
+          for a 8Bn dollar company.{' '}
+        </p>
+        <Image
+          src="/develop-denver.png"
+          alt="FMR logo"
+          width={500}
+          height={250}
+          className="py-[20px] m-auto"
+        />
+        <p className="indent-4 text-[18px] max-w-[580px] text-left">
+          <a
+            href="https://docs.google.com/presentation/d/1rbGS8uENrHhL1FJi_PIQ89V_gRzag8v3QArVqACg56Y/edit#slide=id.p"
+            className="text-blue-700 underline"
+          >
+            Here is a link
+          </a>{' '}
+          to a powerpoint presentation I give on Micro frontends, and Module
+          Federation to stakeholders and other engineers.
+        </p>
+      </section>
+      <h2 className="text-[48px] py-[40px]">Projects</h2>
     </main>
-  )
+  );
 }
