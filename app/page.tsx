@@ -47,7 +47,7 @@ export default function Home() {
           <p className="indent-4 text-[18px] max-w-[580px] text-left">
             DevOps, Compilers, Frameworks, Runtimes, Javascript toolchain,
             Testing, Monorepos, Performance Engineering, Observability, Browser
-            APIs, and more.
+            APIs, State Management, Design Systems, and many more.
           </p>
         </div>
 
@@ -128,7 +128,88 @@ export default function Home() {
           Federation to stakeholders and other engineers.
         </p>
       </section>
-      <h2 className="text-[48px] py-[40px]">Projects</h2>
+      <section className="flex flex-col justify-center margin-auto">
+        <h2 className="text-[48px] py-[40px]">Projects</h2>
+        <div className="text-[18px] max-w-[580px] text-left">
+          <h3 className="text-[24px]">
+            <a
+              href="https://mewzik-viz.vercel.app/"
+              className="text-blue-700 underline"
+            >
+              Music Visualizer
+            </a>
+          </h3>
+
+          <div className="flex">
+            <Image
+              src="/music-viz-red.png"
+              alt="FMR logo"
+              width={250}
+              height={250}
+              className="py-[20px] m-auto"
+            />
+            <Image
+              src="/music-viz-blue.png"
+              alt="FMR logo"
+              width={250}
+              height={250}
+              className="py-[20px] m-auto"
+            />
+          </div>
+          <p className="indent-4 ">
+            Built with three.js, Web Audio APIs, and knowledge of trigonometry
+            sound physics.
+            <br />
+            <br />
+            It works by taking music as input data and the program will get a
+            set amount of frequencies. For each frequency, it will get the
+            amplitude, and it will use this information to create a visual
+            representation of the music. The visualizer requires an MP3 to play.
+            Here is a soundbyte MP3 of Beethovens 5th Symphony if you do not
+            have one available.
+            <br />
+            <br />
+            <a
+              href="beethoven-symphony-5.mp3"
+              className="text-blue-700 underline"
+            >
+              Download MP3
+            </a>
+          </p>
+        </div>
+        <div className="pt-[20px] text-[18px] max-w-[580px] text-left">
+          <h3 className="text-[24px]">
+            <a
+              href="https://boggle.pages.dev/"
+              className="text-blue-700 underline"
+            >
+              Boggle Word Finder
+            </a>
+          </h3>
+          <div className="flex">
+            <Image
+              src="/boggle.png"
+              alt="FMR logo"
+              width={500}
+              height={750}
+              className="py-[20px] m-auto"
+            />
+          </div>
+          <p className="indent-4 ">
+            Built with compouter science fundamentals such a recursion, breadth
+            first search, and depth first search. The tech stack is built with
+            Qwik.js Rust, Wasm, web workers, and CSS for the styles.
+            <br />
+            <br />
+            The boogle clone works by taking two sources of input. The first is
+            a string of letters that represent the board. The second is a
+            dictionary of words. The program will then find all the words that
+            can be made from the board and the dictionary.
+            <br />
+            <br />
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
