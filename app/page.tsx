@@ -14,7 +14,7 @@ export default function Home() {
           OSS contributor, conference speaker, and life-long learner.
         </p>
         <p className="text-center text-[20px] max-w-[580px] pt-[20px]">
-          Let's build something great, together.
+          Let&apos;s build something great, together.
         </p>
         <div className="margin-auto flex flex-col justify-center">
           <a
