@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-6 xs:p-2 xxs:p-2">
       <h1 className="text-[48px]">Alex Bennett</h1>
-      <section className="margin-auto pt-[20px] text-[20px] pb-[40px] max-w-[580px] px-6">
-        <p className=" text-center indent-4">
+      <section className="margin-auto mt-[20px] text-[18px] mb-[30px] max-w-[580px] px-6">
+        <p className=" text-center">
           Software Engineer & AWS Certified Cloud Architect with over a decade
           of experience building comprehensive technology solutions across many
           industries.
@@ -20,7 +20,7 @@ export default function Home() {
           <a
             href="/Resume-Alex-Bennett.pdf"
             download="alex-bennett-resume.pdf"
-            className="my-[20px]  underline text-center text-blue-700 m-auto"
+            className="my-[20px] underline text-center text-blue-700 m-auto"
           >
             Download Resume
           </a>
@@ -28,56 +28,64 @@ export default function Home() {
       </section>
       <section className="text-left xs:text-[16px] md:text-[18px] xxs:w-[98%]  xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
         <div className="pt-[20px] w-[500px]">
-          <p className="font-medium text-[18px] pb-[10px]">
-            🧰 Tools, libraries, and frameworks:
-          </p>
-          <p className="indent-4 text-left">
-            React (Next.js/Remix), Qwik, Node.js, TypeScript, GraphQL/Apollo,
-            Webpack, Rust, Wasm and many more not listed here.
+          <h2 className="text-center font-medium text-[18px] pb-[10px]">
+            🧰 Languages, libraries, and frameworks
+          </h2>
+          <p className="text-left">
+            React (Next.js/Remix), React Native, Qwik, Node.js, TypeScript,
+            GraphQL/Apollo, Webpack, Rust, Wasm and <i>many</i> more.
           </p>
         </div>
         <div className="w-[500px] text-left pt-[20px]">
-          <p className="font-medium text-[18px] pb-[10px]">🧩 Patterns:</p>
-          <p className="indent-4 text-left">
+          <h2 className="text-center font-medium text-[18px] pb-[10px]">
+            🧩 Patterns
+          </h2>
+          <p className="text-left">
             Serverless, Micro frontends, Event Sourcing and Event Driven
             Architecture, CQRS, functional programming, SOLID principles, clean
-            architecture, BFF, Service-full integration, Polylith and many more.
+            architecture, BFF, Service-full integration, Polylith, RPC/gRPC.
           </p>
         </div>
         <div className="w-[500px] text-left pt-[20px]">
-          <p className="font-medium text-[18px] pb-[10px]">
-            🧠 Knowledgable about:
-          </p>
-          <p className="indent-4 text-left">
+          <h2 className="text-center font-medium text-[18px] pb-[10px]">
+            🧠 Knowledgable about
+          </h2>
+          <p className="text-left">
             DevOps, Compilers, Frameworks, Runtimes, Javascript toolchain,
             Testing, Monorepos, Performance Engineering, Observability, Browser
-            APIs, State Management, Design Systems, and many more.
+            APIs, State Management, Design Systems.
           </p>
         </div>
 
         <div className="w-[500px] text-left pt-[20px]">
-          <p className="font-medium text-[18px] pb-[10px]">⛅️ Clouds:</p>
-          <p className="indent-4 text-left">
-            AWS, GCP, Cloudflare, Vercel, Netlify, Heroku, etc
+          <h2 className="text-center font-medium text-[18px] pb-[10px]">
+            ⛅️ Clouds
+          </h2>
+          <p className="text-left">
+            AWS, GCP, Cloudflare, Vercel, Netlify, Heroku, Supabase, Railway,
+            etc
           </p>
         </div>
 
         <div className="w-[500px] text-left pt-[20px]">
-          <p className="font-medium text-[18px] pb-[10px]">🗄 Databases:</p>
-          <p className="indent-4 text-left">
+          <h2 className="text-center font-medium text-[18px] pb-[10px]">
+            🗄 Databases
+          </h2>
+          <p className="text-left">
             Realtional: Postgres, MySQL, Nonrelational: DynamoDB, MongoDB,
             Redis. Also have worked with Columnar and Graph DBs.
           </p>
         </div>
         <div className="w-[500px] text-left pt-[20px]">
-          <p className="font-medium text-[18px] pb-[10px]">✏️ Design:</p>
-          <p className="indent-4 text-left">
+          <h2 className="text-center font-medium text-[18px] pb-[10px]">
+            ✏️ Design
+          </h2>
+          <p className="text-left">
             Figma, SketchUp, Adobe: Photoshop, Illustrator, After Effects,
             Premier Pro
           </p>
         </div>
       </section>
-
       <div className="xs:text-[16px] md:text-[18px] xxs:w-[98%]  xs:w-[98%] md:w-[98%] w-[90%] flex flex-wrap items-baseline justify-evenly margin-auto max-w-[1100px]">
         <section className="flex flex-col justify-center margin-auto w-[500px]">
           <h2 className="text-[48px] py-[40px] text-center">Writing</h2>
@@ -97,7 +105,7 @@ export default function Home() {
             alt="FMR logo"
             width={500}
             height={500}
-            className="py-[20px]"
+            className="py-[40px]"
           />
           <p className="indent-4  text-left">
             This OSS project was later published in the seminal book on
@@ -108,7 +116,7 @@ export default function Home() {
             alt="FMR logo"
             width={500}
             height={500}
-            className="py-[20px]"
+            className="py-[40px]"
           />
           <h3 className="text-[30px] py-[20px] text-center">Speaking</h3>
           <p className="indent-4  text-left">
@@ -121,8 +129,9 @@ export default function Home() {
             alt="FMR logo"
             width={500}
             height={250}
-            className="py-[20px] m-auto"
+            className="py-[40px]"
           />
+          <h3 className="text-[30px] py-[20px] text-center">Presentations</h3>
           <p className="indent-4  text-left">
             <a
               href="https://docs.google.com/presentation/d/1rbGS8uENrHhL1FJi_PIQ89V_gRzag8v3QArVqACg56Y/edit#slide=id.p"
@@ -138,14 +147,14 @@ export default function Home() {
             alt="FMR logo"
             width={500}
             height={300}
-            className="py-[20px] m-auto"
+            className="py-[40px]"
           />
           <Image
             src="/diagram-close.png"
             alt="FMR logo"
             width={500}
             height={750}
-            className="py-[20px] m-auto"
+            className="py-[40px]"
           />
         </section>
         <section className="flex flex-col justify-center margin-auto w-[500px]">
@@ -236,15 +245,13 @@ export default function Home() {
                 Federating Wasm Modules
               </a>
             </h3>
-            <div className="flex">
-              <Image
-                src="/wasm-federation.png"
-                alt="FMR logo"
-                width={500}
-                height={750}
-                className="py-[20px] m-auto"
-              />
-            </div>
+            <Image
+              src="/wasm-federation.png"
+              alt="FMR logo"
+              width={500}
+              height={750}
+              className="py-[20px] m-auto"
+            />
             <p className="indent-4 ">
               Built with webpack module federation, Rust, and Wasm
               <br />
@@ -258,6 +265,81 @@ export default function Home() {
               <br />
               <br />
             </p>
+          </div>
+        </section>
+
+        <section className="flex flex-col justify-center margin-auto w-[500px]">
+          <h2 className="text-[48px] mt-[20px] text-center">Work</h2>
+          <h3 className="text-[24px] text-center">
+            <a
+              href="https://www.productscience.ai/"
+              className="text-blue-700 underline"
+            >
+              Product Science
+            </a>
+          </h3>
+          <Image
+            src="/ps.png"
+            alt="FMR logo"
+            width={500}
+            height={300}
+            className="py-[20px] m-auto"
+          />
+          <p className="indent-4 ">
+            Product Science is a startup that builds perfomance tools for mobile
+            engineers, leveraging AI to create deep insights of runtime
+            execution in a multithreaded environment.
+            <br />
+            <br />
+            I worked on the frontend team, building out the UI for the
+            performance profiler, which is a canvas based react that that
+            renders a flame graph. A video of the app, and timelines to search
+            through each. Other features include a Main Execution path which
+            shows how functions are called over time. This is a completely novel
+            design not present anywhere else in the performace tooling space.
+            <br />
+            <br />
+          </p>
+        </section>
+        <section className="flex flex-col justify-center margin-auto w-[500px]">
+          <h2 className="text-[48px] mt-[20px] text-center">Around the Web</h2>
+          <div className="mt-[20px] text-left">
+            <h3 className="text-[24px] text-center">
+              <a
+                href="https://medium.com/@A__G__B"
+                className="text-blue-700 underline"
+              >
+                Medium
+              </a>
+            </h3>
+          </div>
+          <div className="mt-[20px] text-left">
+            <h3 className="text-[24px] text-center">
+              <a
+                href="https://www.linkedin.com/in/absolute-alex/"
+                className="text-blue-700 underline"
+              >
+                LinkedIn
+              </a>
+            </h3>
+          </div>
+          <div className="mt-[20px] text-left">
+            <h3 className="text-[24px] text-center">
+              <a
+                href="https://twitter.com/alexUX_UI"
+                className="text-blue-700 underline"
+              >
+                Twitter
+              </a>
+            </h3>
+          </div>
+          <div className="mt-[20px] text-left">
+            <a
+              href="https://github.com/alexUXUI"
+              className="text-blue-700 underline"
+            >
+              <h3 className="text-[24px] text-center">Github</h3>
+            </a>
           </div>
         </section>
       </div>
