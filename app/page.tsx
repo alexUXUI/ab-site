@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-6 xs:p-2 xxs:p-2">
       <h1 className="text-[48px]">Alex Bennett</h1>
-      <section className="margin-auto pt-[20px] text-[20px] pb-[40px] max-w-[580px]">
+      <section className="margin-auto pt-[20px] text-[20px] pb-[40px] max-w-[580px] px-6">
         <p className=" text-center indent-4">
           Software Engineer & AWS Certified Cloud Architect with over a decade
           of experience building comprehensive technology solutions across many
@@ -245,15 +245,6 @@ export default function Home() {
                 className="py-[20px] m-auto"
               />
             </div>
-            {/* add a GIF below */}
-            <video
-              src="https://twitter.com/i/status/1391847946711289859"
-              width="500"
-              height="750"
-              controls
-              className="py-[20px] m-auto"
-            />
-
             <p className="indent-4 ">
               Built with webpack module federation, Rust, and Wasm
               <br />
