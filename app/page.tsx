@@ -351,7 +351,7 @@ export default function Home() {
           </section> */}
         </div>
       </main>
-      <footer className="mt-[40px] py-[40px] w-full bg-slate-100 flex flex-col">
+      <footer className="mt-[40px] py-[40px] w-full flex flex-col">
         <div className="flex m-auto pb-[20px]">
           <h3 className="text-[16px] px-2">
             <a
@@ -384,7 +384,7 @@ export default function Home() {
             <h3 className="text-[16px] px-2">Github</h3>
           </a>
         </div>
-        <div className="flex m-auto">
+        <div className="flex m-auto text-center">
           Designed and Developed with 🖤 by Alex Bennett{' '}
           {new Date().getFullYear()}
         </div>
