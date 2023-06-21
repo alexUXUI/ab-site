@@ -26,7 +26,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-// do footer styles in light and dark theme
 footer {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
