@@ -45,7 +45,7 @@ export default function Home() {
               Serverless, Micro frontends, Event Sourcing and Event Driven
               Architecture, CQRS, functional programming, SOLID principles,
               clean architecture, BFF, Service-full integration, Polylith,
-              RPC/gRPC.
+              RPC/gRPC, Plugin, Domain Driven Design.
             </p>
           </div>
           <div className="w-[500px] text-left pt-[20px]">
@@ -92,9 +92,9 @@ export default function Home() {
           <section className="flex flex-col justify-center margin-auto w-[500px]">
             <h2 className="text-[48px] py-[40px] text-center">Writing</h2>
             <p className="indent-4  text-left">
-              As part of the Module Federation OSS community team, I worked with
-              Zack Jackson to write a webpack plugin to syncronize multiple,
-              independent builds using Module Federation and I wrote about it{" "}
+              I worked with Zack Jackson to write a webpack plugin to syncronize
+              multiple, independent builds using Module Federation and I wrote
+              about it{" "}
               <a
                 className="text-blue-700 underline"
                 href="https://medium.com/@A__G__B/introducing-fmr-federated-module-reloading-820ec56256db"
@@ -306,56 +306,13 @@ export default function Home() {
               <br />
             </p>
           </section>
-          {/* <section className="flex flex-col justify-center margin-auto w-[500px]">
-            <h2 className="text-[48px] mt-[20px] text-center">
-              Around the Web
-            </h2>
-            <div className="mt-[20px] text-left">
-              <h3 className="text-[24px] text-center">
-                <a
-                  href="https://medium.com/@A__G__B"
-                  className="text-blue-700 underline"
-                >
-                  Medium
-                </a>
-              </h3>
-            </div>
-            <div className="mt-[20px] text-left">
-              <h3 className="text-[24px] text-center">
-                <a
-                  href="https://www.linkedin.com/in/absolute-alex/"
-                  className="text-blue-700 underline"
-                >
-                  LinkedIn
-                </a>
-              </h3>
-            </div>
-            <div className="mt-[20px] text-left">
-              <h3 className="text-[24px] text-center">
-                <a
-                  href="https://twitter.com/alexUX_UI"
-                  className="text-blue-700 underline"
-                >
-                  Twitter
-                </a>
-              </h3>
-            </div>
-            <div className="mt-[20px] text-left">
-              <a
-                href="https://github.com/alexUXUI"
-                className="text-blue-700 underline"
-              >
-                <h3 className="text-[24px] text-center">Github</h3>
-              </a>
-            </div>
-          </section> */}
         </div>
       </main>
       <footer className="mt-[40px] py-[40px] w-full flex flex-col">
         <div className="flex m-auto pb-[20px]">
           <h3 className="text-[16px] px-2">
             <a
-              href="https://medium.com/@A__G__B"
+              href="https://medium.com/@alexuxui"
               className="text-blue-700 underline"
             >
               Medium
@@ -363,7 +320,7 @@ export default function Home() {
           </h3>
           <h3 className="text-[16px] px-2">
             <a
-              href="https://www.linkedin.com/in/absolute-alex/"
+              href="https://www.linkedin.com/in/alexuxui/"
               className="text-blue-700 underline"
             >
               LinkedIn
