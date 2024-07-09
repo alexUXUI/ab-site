@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           </p>
           <div className="margin-auto flex flex-col justify-center">
             <a
-              href="/Resume-Alex-Bennett.pdf"
+              href="/alex-bennett-resume-2024.pdf"
               download="alex-bennett-resume.pdf"
               className="my-[20px] underline text-center text-blue-700 m-auto"
             >
@@ -94,7 +94,7 @@ export default function Home() {
             <p className="indent-4  text-left">
               As part of the Module Federation OSS community team, I worked with
               Zack Jackson to write a webpack plugin to syncronize multiple,
-              independent builds using Module Federation and I wrote about it{' '}
+              independent builds using Module Federation and I wrote about it{" "}
               <a
                 className="text-blue-700 underline"
                 href="https://medium.com/@A__G__B/introducing-fmr-federated-module-reloading-820ec56256db"
@@ -112,7 +112,7 @@ export default function Home() {
             <p className="indent-4  text-left">
               This OSS project was later published in the seminal book on
               Micro-Frontends, written by Principal AWS Engineer, Luca
-              Mezzalira.{' '}
+              Mezzalira.{" "}
             </p>
             <Image
               src="/building-mfe.png"
@@ -125,7 +125,7 @@ export default function Home() {
             <p className="indent-4  text-left">
               As an early champion and adopter of MFE and Module federation, I
               gave a talk at Develop Denver in 2019 about the MFE archietcture I
-              built for a 8Bn dollar company.{' '}
+              built for a 8Bn dollar company.{" "}
             </p>
             <Image
               src="/develop-denver.png"
@@ -141,7 +141,7 @@ export default function Home() {
                 className="text-blue-700 underline"
               >
                 Here is a link
-              </a>{' '}
+              </a>{" "}
               to a powerpoint presentation I give on Micro frontends, and Module
               Federation to stakeholders and other engineers.
             </p>
@@ -231,7 +231,7 @@ export default function Home() {
                 amplitude, and it will use this information to create a visual
                 representation of the music. The visualizer requires an MP3 to
                 play. Here is a soundbyte MP3 of Beethovens 5th Symphony if you
-                do not have one available.{' '}
+                do not have one available.{" "}
                 <a
                   href="beethoven-symphony-5.mp3"
                   className="text-blue-700 underline"
@@ -385,8 +385,7 @@ export default function Home() {
           </a>
         </div>
         <div className="flex m-auto text-center">
-          Designed and Developed with 🖤 by Alex Bennett{' '}
-          {new Date().getFullYear()}
+          Designed and Developed with 🖤 by Alex Bennett{" "}
         </div>
       </footer>
     </>
